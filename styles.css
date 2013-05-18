@@ -1,0 +1,155 @@
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1em;
+}
+
+.logo {
+    display: block;
+	width: 176px;
+	height: 32px;
+	background-image: url('img/logo.png');
+	background-repeat: no-repeat;
+	font-size: 0;
+    text-indent: -9999px;
+    overflow:hidden;
+    margin-top: 28px;
+}
+
+a  {
+    text-decoration: underline;
+}
+
+a.btn, .nav a {
+    text-decoration: none;
+}
+
+.my-files {
+    height: 12em;
+    overflow: auto;
+}
+
+.before-analysis {
+    text-align: center;
+}
+
+.cool-story {
+    text-align: center;
+}
+
+.contacts {
+    text-align: center;
+    padding-top: 28px;
+}
+
+#topTabs {
+    margin-bottom: 0px;
+}
+
+.topTabs {
+     margin-top: 18px;
+}
+
+.topTabs .tab-content {
+    border: 1px solid #DDDDDD;
+    border-top: none;
+    padding: 20px;
+    height: 240px;
+}
+
+.filesize {
+    text-align:right;
+}
+
+.update-account {
+    text-align:right;
+}
+
+.dropzone {
+    border: 1px dashed #DDDDDD;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#slowConnection {
+    text-align:right;
+}
+
+#topTabs a {
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+}
+
+.analysis {
+    padding-top: 84px;
+
+}
+
+#filesSummary {
+    font-size: 0.8em;
+}
+
+.cardsBackground {
+    background-image: url('img/cards.png');
+    height: 124px;
+    padding-top: 154px;        
+}
+#currentPlan li, #currentSpace li {
+    text-align: center;
+}
+#currentPlan strong, #currentSpace strong {
+    font-weight: normal;
+    display: block;
+    padding-top: 170px;
+    background-image: url('img/placeholdericon.png'); 
+    background-repeat:no-repeat;
+    background-position: top center;  
+}
+
+#refList input[disabled] {
+    cursor: pointer;
+}
+
+#myFiles .filename {
+
+}
+
+#myFiles .filename span {
+    width: 180px;
+    display: block;
+    overflow: hidden;
+}
+
+.filesFixedSize {
+    height: 16em;
+}
+
+#resultsOverlay {
+    position: fixed;
+    top: 0px; display:none;
+    background-color:white;
+    width: 940px;
+}
+
+#results .resultConsensus {
+}
+
+.loading {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image:url('img/ajax-loader.gif'); 
+    margin-left: 16px;
+}
+
+.footer {
+    padding-top: 28px;
+}
+
+.dropzone img, .dropzone .error-mark, .dropzone .error-message, .dropzone .success-mark {
+    display: none;
+}
+
+#currentPlan, #currentSpace {
+    margin-left: -20px;
+}
